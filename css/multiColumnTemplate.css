@@ -514,7 +514,24 @@ iframe {
     margin: 0 auto;
 }
 
-.footerHtml {
+#footerHtml {
     text-align: center;
     margin-top: 2%
+}
+.photosPages {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 900px;
+    margin: auto;
+}
+
+.childPics{
+    margin: auto;
+    margin: 9px;
+}
+@media (min-width: 321px) {
+.face-pic {
+	margin: auto;
 }
