@@ -64,14 +64,6 @@ body {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	clear: left;
-	border-bottom: 2px solid #000000;
-	border-top: 2px solid #000000;
-	border-right: 2px solid #000000;
-	border-left: 2px solid #000000;
-	border-top-color: #000000;
-	border-right-color: #000000;
-	border-left-color: #000000;
-	color: white;
 }
 header .primary_header .title {
 	padding-right: 4px;
@@ -312,6 +304,8 @@ body {
 	width: 80%;
 }
 .container .secondary_header {
+}
+.container header .primary_header {
 }
 }
 
